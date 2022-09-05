@@ -7,7 +7,7 @@ body {
     width: 100%;
     padding-bottom: 150px;
     padding-top: 20px;
-    background-image: url('./images/contact.jpg');
+    background-image: url('./images/sparkles.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -18,7 +18,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding-bottom: 25px;
+    padding-bottom: 4vw;
     padding-top: 10px;
 }
 
@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 span {
-    color: orange;
+    color: darkorange;
 }
 
 .desc {
@@ -118,6 +118,7 @@ span {
     flex: 1;
     text-align: center;
     font-size: 3vw;
+    transition: 1s;
 }
 
 .col5 {
@@ -128,20 +129,20 @@ span {
     font-size: 1.3vw;
 }
 
-.facebook :hover{
-    font-size: 50px;
+.facebook:hover{
+    font-size: 5vw;
     transition: 0.5s;
     filter: drop-shadow(0 0 20px #1877f2) drop-shadow(0 0 40px #1877f2) drop-shadow(0 0 60px #1877f2);
 }
 
 .insta:hover{
-    font-size: 50px;
+    font-size: 5vw;
     transition: 0.5s;
     filter: drop-shadow(0 0 20px #c32aa3) drop-shadow(0 0 40px #c32aa3) drop-shadow(0 0 60px #c32aa3);
 }
 
-.linkedin :hover{
-    font-size: 50px;
+.linkedin:hover{
+    font-size: 5vw;
     transition: 0.5s;
     filter: drop-shadow(0 0 20px #1da1f2) drop-shadow(0 0 40px #1da1f2) drop-shadow(0 0 60px #1da1f2);
 }

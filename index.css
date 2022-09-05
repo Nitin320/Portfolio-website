@@ -55,6 +55,10 @@ nav ul li a:hover {
     transition-delay: 0.1s;
 }
 
+.me {
+    height: 50vw;
+    width: 50vw;
+}
 
 main {
     padding-left: 20px;
