@@ -5,7 +5,7 @@
 
 body {
     width: 100%;
-    background-image: url('./images/awesom.jpg');
+    background-image: url('../images/awesom.jpg');
     background-size: contain;
 
     width: 100%;
@@ -96,7 +96,7 @@ span {
     align-items: center;
     text-align: center;
     margin-bottom: 5vw;
-    background-image: url('./images/bg2.jpg');
+    background-image: url('../images/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -104,7 +104,7 @@ span {
 }
 
 .num1 {
-    background-image: url('./images/bg2.jpg');
+    background-image: url('../images/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

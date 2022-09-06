@@ -6,7 +6,7 @@
 body {
     width: 100%;
     padding-bottom: 150px;
-    background-image: url('./images/sparkles.jpg');
+    background-image: url('../images/sparkles.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
