@@ -16,12 +16,19 @@ header {
     display: flex;
     align-items: center;
     padding-bottom: 4vw;
-    padding-top: 10px;
+    padding-top: 2vw;
+}
+
+.logo1 {
+    flex: 1;
 }
 
 .logo {
-    flex: 1;
-    padding-left: 10px;
+    margin-left: 2vw;
+    width: 5vw;
+    height: 5vw;
+    border: 2px solid darkorange;
+    border-radius: 20px;
 }
 
 .listitems {
@@ -125,6 +132,24 @@ span {
 a {
     text-decoration: none;
 }
+
+.num2, .num1, .num3, .num4{
+    opacity: 0;
+}
+
+.num2.f, .num1.f, .num3.f, .num4.f{
+    animation: animate 2s forwards;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 .cert {
     position: relative;

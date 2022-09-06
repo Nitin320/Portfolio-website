@@ -11,8 +11,8 @@
 
     <header>
         
-        <div class="logo">
-            <img src=".\images\nitin.jpg" alt="" class="logo">
+        <div class="logo1">
+            <img src=".\images\mainlogo.jpg" alt="" class="logo">
         </div>
 
         <nav>
@@ -41,6 +41,41 @@
             <p class="head">IBM - Python 101 for Data Science</p>
             <a href="https://courses.cognitiveclass.ai/certificates/ede399a4d077465bb2bbdaca2c902034" class="awesomelink"><p class="cert">See Certification</p></a>
         </div>
+
+        <script>
+            const observer0 = new IntersectionObserver(entries => {
+                
+                entries.forEach(entry => {
+                    entry.target.classList.toggle("f", entry.isIntersecting)
+                    if(entry.isIntersecting) observer0.unobserve(entry.target)
+                })
+            },
+            {
+                threshold: 0.3,
+            }
+                 
+            );
+
+            observer0.observe(document.querySelector('.num2'));
+        </script>
+        <script>
+            const observer1 = new IntersectionObserver(entries => {
+                
+                entries.forEach(entry => {
+                    entry.target.classList.toggle("f", entry.isIntersecting)
+                    if(entry.isIntersecting) observer1.unobserve(entry.target)
+                })
+            },
+            {
+                threshold: 0.3,
+            }
+                 
+            );
+
+            observer1.observe(document.querySelector('.num1'));
+        </script>
+
+
         <div class="num3">
             <img src="./images/gc.png" class="img1">
             <p class="head">Google Cloud - Managing Data on the Cloud</p>
@@ -51,6 +86,40 @@
             <p class="head">Google - Fundamentals of Digital Marketing</p>
             <a href="https://drive.google.com/file/d/1PQlX7RaQpA3N3ZZaHdr9qLv9KV-VLLr7/view?usp=sharing" class="awesomelink"><p class="cert">See Certification</p></a>
         </div>
+
+        <script>
+            const observer2 = new IntersectionObserver(entries => {
+                
+                entries.forEach(entry => {
+                    entry.target.classList.toggle("f", entry.isIntersecting)
+                    if(entry.isIntersecting) observer2.unobserve(entry.target)
+                })
+            },
+            {
+                threshold: 0.3,
+            }
+                 
+            );
+
+            observer2.observe(document.querySelector('.num3'));
+        </script>
+        <script>
+            const observer3 = new IntersectionObserver(entries => {
+                
+                entries.forEach(entry => {
+                    entry.target.classList.toggle("f", entry.isIntersecting)
+                    if(entry.isIntersecting) observer3.unobserve(entry.target)
+                })
+
+            },
+            {
+                threshold: 0.3,
+            }
+                 
+            );
+
+            observer3.observe(document.querySelector('.num4'));
+        </script>
     </div>
     
 </body>

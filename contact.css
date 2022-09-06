@@ -6,7 +6,6 @@
 body {
     width: 100%;
     padding-bottom: 150px;
-    padding-top: 20px;
     background-image: url('./images/sparkles.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,14 +18,20 @@ header {
     display: flex;
     align-items: center;
     padding-bottom: 4vw;
-    padding-top: 10px;
+    padding-top: 2vw;
+}
+
+.logo1 {
+    flex: 1;
 }
 
 .logo {
-    flex: 1;
-    padding-left: 10px;
+    margin-left: 2vw;
+    width: 5vw;
+    height: 5vw;
+    border: 2px solid darkorange;
+    border-radius: 20px;
 }
-
 .listitems {
     display: flex;
     padding-right: 40px;
@@ -49,7 +54,7 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-    color: white;
+    color: black;
     background: yellow;
     box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
     transition-delay: 0.1s;
