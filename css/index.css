@@ -103,9 +103,9 @@ main {
     }
 
     .mobile {
-        margin-top: 40vh;
-        margin-left: 10vh;
-        margin-right: 10vh;
+        margin-top: 20vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
         border: 5px solid black;
         display: contents;
         display: flex;
