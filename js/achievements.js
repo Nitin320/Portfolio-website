@@ -48,7 +48,6 @@ observer2.observe(document.querySelector('.num3'));
 
 
 
-
 const observer3 = new IntersectionObserver(entries => {
                 
     entries.forEach(entry => {
@@ -64,3 +63,19 @@ const observer3 = new IntersectionObserver(entries => {
 );
 
 observer3.observe(document.querySelector('.num4'));
+
+const observer4 = new IntersectionObserver(entries => {
+                
+    entries.forEach(entry => {
+        entry.target.classList.toggle("f", entry.isIntersecting)
+        if(entry.isIntersecting) observer4.unobserve(entry.target)
+    })
+
+},
+{
+    threshold: 0.3,
+}
+     
+);
+
+observer4.observe(document.querySelector('.num5'));

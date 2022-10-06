@@ -88,7 +88,7 @@ span {
     margin-right: 20%;
 }
 
-.num1, .num2, .num3, .num4 {
+.num1, .num2, .num3, .num4, .num5 {
     flex: 1;
     border: 5px solid darkorange;
     border-radius: 20px;
@@ -132,11 +132,11 @@ a {
     text-decoration: none;
 }
 
-.num2, .num1, .num3, .num4{
+.num2, .num1, .num3, .num4, .num5{
     opacity: 0;
 }
 
-.num2.f, .num1.f, .num3.f, .num4.f{
+.num2.f, .num1.f, .num3.f, .num4.f, .num5.f{
     animation: animate 2s forwards;
 }
 
